@@ -5,7 +5,7 @@
 ### javac Zoo.java
 
 ### java Zoo
-####Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0 at Zoo.main(Zoo.java:4)
+#### Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0 at Zoo.main(Zoo.java:4)
 
 ### java Zoo Donkey
 
