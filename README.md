@@ -29,3 +29,25 @@
 &emsp; Zoo
 
 &emsp; 2022
+
+
+### OCP-17-Practice/Hardcoded/packagea
+### OCP-17-Practice/Hardcoded/packageb
+
+#### javac packagea/ClassA.java packageb/ClassB.java
+Or
+#### javac packagea/*.java packageb/*.java
+
+#### java packageb.ClassB
+
+### take class files into classes folder
+
+#### javac -d classes packagea/ClassA.java packageb/ClassB.java
+
+#### java -cp classes packageb.ClassB
+Or
+#### java -classpath classes packageb.ClassB
+Or
+#### java --class-path classes packageb.ClassB
+
+
