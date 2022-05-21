@@ -36,7 +36,7 @@
 
 #### javac packagea/ClassA.java packageb/ClassB.java
 Or
-#### javac packagea/*.java packageb/*.java
+#### javac packagea//*.java packageb//*.java
 
 #### java packageb.ClassB
 
