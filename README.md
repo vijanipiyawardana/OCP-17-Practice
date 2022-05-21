@@ -45,7 +45,9 @@ Or
 
 #### java packageb.ClassB
 
-### take class files into classes folder
+``` diff
++ take class files into another directory "classes" 
+```
 
 #### javac -d classes packagea/ClassA.java packageb/ClassB.java
 
