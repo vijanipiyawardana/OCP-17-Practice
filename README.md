@@ -1,6 +1,7 @@
 # OCP 17 Practice projects
 
-### OCP-17-Practice/Hardcoded/Zoo.java
+### - command line arguments
+#### OCP-17-Practice/Hardcoded/Zoo.java
 
 #### javac Zoo.java
 
@@ -31,8 +32,10 @@
 &emsp; 2022
 
 
-### OCP-17-Practice/Hardcoded/packagea
-### OCP-17-Practice/Hardcoded/packageb
+### - creating packages and compiling with packages 
+
+#### OCP-17-Practice/Hardcoded/packagea
+#### OCP-17-Practice/Hardcoded/packageb
 
 #### javac packagea/ClassA.java packageb/ClassB.java
 Or
