@@ -1,5 +1,6 @@
-package com.postcode.lottery;
+package postcode.lottery;
 
+import java.util.List;
 import java.util.ArrayList;
 import java.io.*;
 import java.util.Random;
@@ -7,12 +8,31 @@ import java.util.Random;
 public class LotteryDraw{
 
 	ArrayList<String> postcodes = new ArrayList<>();
-
+	List<Integer> generatedRandomNumbers = new ArrayList<>();
+	
 	public String getWinner(){
+		String winner = null;
 		Random r = new Random();
-		int winnerNumber = r.nextInt(20); // a number 0-19
+	
+		int winnerNumber;
+		winnerNumber = r.nextInt(postcodes.size()); 
 		System.out.println("Random number is: "+ winnerNumber);
-		String winner = postcodes.get(winnerNumber);
+		generatedRandomNumbers.add(winnerNumber);
+		
+		do{
+			winner = postcodes.get(winnerNumber);
+			if(winner != null){
+				break;
+			}
+			else{
+				winnerNumber = r.nextInt(postcodes.size());
+			}
+		}while(!generatedRandomNumbers.contains(winnerNumber));
+		
+		for(int num: generatedRandomNumbers) {
+   			System.out.print(num + " ");
+		}
+		System.out.println();
 		return winner;	
 	}
 
