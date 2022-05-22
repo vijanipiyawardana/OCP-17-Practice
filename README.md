@@ -62,3 +62,7 @@ Or
 ```
 
 ### OCP-17-Practice/Hardcoded/JarExample
+
+#### ./JarExample/LotteryLib/src$ **javac com/postcode/draw/LotteryDraw.java**
+#### ./JarExample/LotteryLib/src$ **jar -cvf LotteryLib.jar com/postcode/draw/\*.class**
+
