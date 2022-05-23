@@ -63,6 +63,11 @@ Or
 
 ### OCP-17-Practice/Hardcoded/JarExample
 
-#### .../JarExample/LotteryLib/src$ javac com/postcode/draw/LotteryDraw.java
-#### .../JarExample/LotteryLib/src$ jar -cvf LotteryLib.jar com/postcode/draw/\*.class
+##### inside this folder: 
+##### JarExample/LotteryLib/src
+#### javac com/postcode/draw/LotteryDraw.java
+#### jar -cvf LotteryLib.jar com/postcode/draw/\*.class
+
+##### to make the jar inside JarExample folder (2 folders back)
+#### jar -cvf ../../LotteryLib.jar com/postcode/draw/*.class
 
