@@ -63,11 +63,19 @@ Or
 
 ### OCP-17-Practice/Hardcoded/JarExample
 
-##### inside this folder: 
-##### JarExample/LotteryLib/src
+##### inside this folder: JarExample/LotteryLib/src
 #### javac com/postcode/draw/LotteryDraw.java
 #### jar -cvf LotteryLib.jar com/postcode/draw/\*.class
 
 ##### to make the jar inside JarExample folder (2 folders back)
 #### jar -cvf ../../LotteryLib.jar com/postcode/draw/*.class
+
+##### inside this folder: JarExample/LotteryMain/src
+
+##### compiling Main.java with the LotteryLib.jar file
+#### javac -cp /media/vijani/2CB4BCFFB4BCCD18/Vijani_projects/OCP-17-Practice/Hardcoded/JarExample/LotteryLib.jar com/postcode/main/Main.java
+
+##### run Main.java with the LotteryLib.jar file
+#### java -cp .:/media/vijani/2CB4BCFFB4BCCD18/Vijani_projects/OCP-17-Practice/Hardcoded/JarExample/LotteryLib.jar com/postcode/main/Main
+
 
