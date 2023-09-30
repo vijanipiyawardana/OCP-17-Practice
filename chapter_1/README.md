@@ -25,7 +25,7 @@ Classes and Source Files
 [`Animal.java`](1_class_structure/Animal.java)
 <br>Comments
 [`Comment.java`](1_class_structure/Comment.java)
-<br>
+<br>Writing a main() method
 [`Zoo.java`](1_class_structure/Zoo.java)
 
 ## 1.2. Packages

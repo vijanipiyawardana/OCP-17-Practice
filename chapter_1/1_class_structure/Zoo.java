@@ -1,3 +1,6 @@
+/*
+ * Writing a main() method.
+ */
 public class Zoo{
 
 	public static void main(String args[]){
