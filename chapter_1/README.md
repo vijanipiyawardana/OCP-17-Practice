@@ -19,8 +19,12 @@ keyword: a word with special meaning in java
 ```shell
 javac -d build Animal.java 
 ```
-
+Classes and Source Files
+[`Demo.java`](1_class_structure/Demo.java)
+Fields and methods
 [`Animal.java`](1_class_structure/Animal.java)
+Comments
+[`Comment.java`](1_class_structure/Comment.java)
 
 [`Zoo.java`](1_class_structure/Zoo.java)
 
