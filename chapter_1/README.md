@@ -21,11 +21,11 @@ javac -d build Animal.java
 ```
 Classes and Source Files
 [`Demo.java`](1_class_structure/Demo.java)
-Fields and methods
+<br>Fields and methods
 [`Animal.java`](1_class_structure/Animal.java)
-Comments
+<br>Comments
 [`Comment.java`](1_class_structure/Comment.java)
-
+<br>
 [`Zoo.java`](1_class_structure/Zoo.java)
 
 ## 1.2. Packages
