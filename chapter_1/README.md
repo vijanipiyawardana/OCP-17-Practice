@@ -19,16 +19,29 @@ keyword: a word with special meaning in java
 ```shell
 javac -d build Animal.java 
 ```
+- to run the compiled code in build folder:
+```shell
+java -cp build Zoo.java
+```
+```shell
+java -classpath build Zoo.java
+```
+```shell
+java --class-path build Zoo.java
+```
+
 Classes and Source Files
 [`Demo.java`](1_class_structure/Demo.java)
 <br>Fields and methods
 [`Animal.java`](1_class_structure/Animal.java)
 <br>Comments
 [`Comment.java`](1_class_structure/Comment.java)
-<br>Writing a main() method
-[`Zoo.java`](1_class_structure/Zoo.java)
 
-## 1.2. Packages
+## 1.2. Main method
+<br>Writing a main() method
+[`Zoo.java`](2_main_method/Zoo.java)
+
+## 1.3. Packages
 
 
 ## 1.3. Jar example
