@@ -15,7 +15,14 @@
   - fields: variables, holds the state of the program
 keyword: a word with special meaning in java
 
-Animal.java
+- to compile and have .class files inside build folder:
+```shell
+javac -d build Animal.java 
+```
+
+[`Animal.java`](1_class_structure/Animal.java)
+
+[`Zoo.java`](1_class_structure/Zoo.java)
 
 ## 1.2. Packages
 

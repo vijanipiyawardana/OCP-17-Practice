@@ -5,8 +5,8 @@
 public class Animal{
 	private String name;
 }
-public class Animal2{
-}
+// public class Animal2{
+// }
 
 
 // compiled
