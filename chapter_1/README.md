@@ -60,9 +60,12 @@ java Zoo.java elephant Zoo
 java Zoo.java Zoo
 ```
 
-
 ## 1.3. Packages
-
+- import from packages to use a java class
+[`NumberPickerError.java`](3_packages/NumberPickerError.java)
+[`NumberPickerCorrect.java`](3_packages/NumberPickerCorrect.java)
+[`NumberPickerWildcard`](3_packages/NumberPickerWildcard.java)
+[`AtomicIntegerDemo`](3_packages/AtomicIntegerDemo.java)
 
 ## 1.3. Jar example
 
@@ -71,6 +74,3 @@ java Zoo.java Zoo
 ## 1.5. Data types
 
 ## 1.6. Declaring variables
-
-## java Zoo Donkey Monkey Rabbit
-
