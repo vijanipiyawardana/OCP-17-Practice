@@ -43,6 +43,9 @@ Classes and Source Files
 
 To run with arguments passed into main method:
 ```shell
+java Zoo elephant rabbit
+```
+```shell
 java -cp build Zoo elephant rabbit
 ```
 
