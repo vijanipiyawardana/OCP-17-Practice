@@ -63,9 +63,11 @@ java Zoo.java Zoo
 ## 1.3. Packages
 - import from packages to use a java class
 [`NumberPickerError.java`](3_packages/NumberPickerError.java)
-[`NumberPickerCorrect.java`](3_packages/NumberPickerCorrect.java)
-[`NumberPickerWildcard`](3_packages/NumberPickerWildcard.java)
-[`AtomicIntegerDemo`](3_packages/AtomicIntegerDemo.java)
+[`NumberPickerCorrect.java`](3_packages/NumberPickerCorrect.java) <br>
+- * is the wildcard that matches all classes in a package
+[`NumberPickerWildcard`](3_packages/NumberPickerWildcard.java) <br>
+- The import statement imports only classes directly under the package.
+[`AtomicIntegerDemo`](3_packages/AtomicIntegerDemo.java) <br>
 
 ## 1.3. Jar example
 
