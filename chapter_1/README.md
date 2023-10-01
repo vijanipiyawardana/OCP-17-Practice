@@ -48,6 +48,18 @@ java Zoo elephant rabbit
 ```shell
 java -cp build Zoo elephant rabbit
 ```
+```shell
+java -cp build Zoo "african elephant" rabbit
+```
+
+- Single-File Source code: skipping explicit compilation step, useful for small programs, one file.
+```shell
+java Zoo.java elephant Zoo
+```
+```shell
+java Zoo.java Zoo
+```
+
 
 ## 1.3. Packages
 

@@ -13,9 +13,9 @@
  */
 public class Zoo{
 
-	// public static void main(String args[]){
-	// 	System.out.println("Hello World 1");	
-	// }
+	public static void main(String args[]){
+		System.out.println("Hello World 1");	
+	}
 
 	// public static void main(String[] args){
 	// 	System.out.println("Hello World 2");	
@@ -43,10 +43,40 @@ public class Zoo{
 	// }
 
 	/*
+	 * Passing parameters into Java program
 	 * prints values that were read in (arguments) when the JVM started.
+	 * 
+	 * java -cp build Zoo elephant rabbit
+	 * output:
+	 * elephant
+	 * rabbit
 	 */
-	public static void main(String args[]) {
-		System.out.println(args[0]);
-		System.out.println(args[1]);
-	}
+	// public static void main(String args[]) {
+	// 	System.out.println(args[0]);
+	// 	System.out.println(args[1]);
+	// }
+
+	/* if you want spaces inside an argument?
+	 * java -cp build Zoo "african elephant" rabbit
+	 * output:
+	 * african elephant
+	 * rabbit
+	 */
+	// public static void main(String args[]) {
+	// 	System.out.println(args[0]);
+	// 	System.out.println(args[1]);
+	// }
+
+	/*
+	 * if you don't pass enough arguments?
+	 * 
+	 * java -cp build Zoo elephant
+	 * Output:
+	 * elephant
+	 * Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	 */
+	// public static void main(String args[]) {
+	// 	System.out.println(args[0]);
+	// 	System.out.println(args[1]);
+	// }
 }
