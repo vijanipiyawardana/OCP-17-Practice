@@ -38,6 +38,15 @@ Classes and Source Files
 [`Comment.java`](1_class_structure/Comment.java)
 
 ## 1.2. Main method
+
+- main() method must be **public**
+- main() method must have a **void** return type.
+- main() method must be **static**
+- canonical main() method signature
+    `public static void main(String[] args)` 
+- alternate form of main() method signature with the redundant **final** 
+    `public static final void main(String[] args)`
+
 <br>Writing a main() method
 [`Zoo.java`](2_main_method/Zoo.java)
 
