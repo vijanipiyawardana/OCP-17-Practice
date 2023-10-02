@@ -95,6 +95,26 @@ javac packagea/ClassA.java packageb/ClassB.java
 ClassA.class in packagea [`ClassA`](3_packages/packagea/ClassA.class)<br>
 ClassB.class in packageb [`ClassB`](3_packages/packageb/ClassB.class)
 
+- to run the program
+```shell
+java packageb.ClassB
+```
+
+- Compiling with wildcard: use \* to include all java files in a directory, if you have a lot of files in a package
+```shell
+javac packagea/\*.java packageb/\*.java
+``` 
+
+- Compiling to another directory: into build directory
+```shell
+javac -d build packagea/ClassA.java packageb/ClassB.java
+```
+- Which will result;<br>
+ClassA.class in build/packagea [`ClassA`](3_packages/build/packagea/ClassA.class)<br>
+ClassB.class in build/packageb [`ClassB`](3_packages/build/packageb/ClassB.class)
+
+
+
 ### Compiling with JAR file.
 
 ## 1.3. Jar example
