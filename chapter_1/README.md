@@ -77,9 +77,11 @@ java Zoo.java Zoo
 [`NumberPickerWildcard`](3_packages/NumberPickerWildcard.java) <br>
 - The import statement imports only classes directly under the package.
 [`AtomicIntegerDemo`](3_packages/AtomicIntegerDemo.java) <br>
-- Rdundant imports
+- Redundant imports
 [`NumberPickerRedundantImports`](3_packages/NumberPickerRedundantImports.java)
-[`InputImportsRedundantImports`](3_packages/InputImportsRedundantImports.java)
+[`InputImportsRedundantImports`](3_packages/InputImportsRedundantImports.java)<br>
+- Naming conflicts
+[`NamingConflicts`](3_packages/NamingConflicts.java)
 
 ## 1.3. Jar example
 
