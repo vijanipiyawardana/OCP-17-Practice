@@ -111,9 +111,18 @@ javac -d build packagea/ClassA.java packageb/ClassB.java
 ```
 - Which will result;<br>
 ClassA.class in build/packagea [`ClassA`](3_packages/build/packagea/ClassA.class)<br>
-ClassB.class in build/packageb [`ClassB`](3_packages/build/packageb/ClassB.class)
+ClassB.class in build/packageb [`ClassB`](3_packages/build/packageb/ClassB.class)<br>
 
-
+- to run the program: can use one of the three options
+```shell
+java -cp build packageb.ClassB
+```
+```shell
+java -classpath build packageb.ClassB
+```
+```shell
+java --class-path build packageb.ClassB
+```
 
 ### Compiling with JAR file.
 
