@@ -70,6 +70,7 @@ java Zoo.java Zoo
 ```
 
 ## 1.3. Packages
+### Using Java Packages
 - import from packages to use a java class
 [`NumberPickerError.java`](3_packages/NumberPickerError.java)
 [`NumberPickerCorrect.java`](3_packages/NumberPickerCorrect.java) <br>
@@ -82,6 +83,19 @@ java Zoo.java Zoo
 [`InputImportsRedundantImports`](3_packages/InputImportsRedundantImports.java)<br>
 - Naming conflicts
 [`NamingConflicts`](3_packages/NamingConflicts.java)
+
+### Create a new package
+ClassA.java in packagea [`ClassA`](3_packages/packagea/ClassA.java)<br>
+ClassB.java in packageb [`ClassB`](3_packages/packageb/ClassB.java)
+- Compile both at once
+```shell
+javac packagea/ClassA.java packageb/ClassB.java
+```
+- Which will result;<br>
+ClassA.class in packagea [`ClassA`](3_packages/packagea/ClassA.class)<br>
+ClassB.class in packageb [`ClassB`](3_packages/packageb/ClassB.class)
+
+### Compiling with JAR file.
 
 ## 1.3. Jar example
 
