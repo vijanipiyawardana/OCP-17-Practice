@@ -1,22 +1,6 @@
 # OCP 17 Practice projects
 
-#### javac packagea/ClassA.java packageb/ClassB.java
-Or
-#### javac packagea/\*.java packageb/\*.java
 
-#### java packageb.ClassB
-
-``` diff
-+ take class files into another directory "classes" 
-```
-
-#### javac -d classes packagea/ClassA.java packageb/ClassB.java
-
-#### java -cp classes packageb.ClassB
-Or
-#### java -classpath classes packageb.ClassB
-Or
-#### java --class-path classes packageb.ClassB
 
 ``` diff
 - creating and using a .jar file
@@ -33,7 +17,7 @@ Or
 
 ##### inside this folder: JarExample/LotteryMain/src
 ##### compiling Main.java with the LotteryLib.jar file
-#### javac -cp /media/vijani/2CB4BCFFB4BCCD18/Vijani_projects/OCP-17-Practice/Hardcoded/JarExample/LotteryLib.jar com/postcode/main/Main.java
+#### javac -cp /media/vijani/2CB4BCFFB4BCCD18/Vijani_projects/OCP-17-Practice/Hardcoded/JarExample/LotteryLib.jar com/postcode/
 
 ##### run Main.java with the LotteryLib.jar file
 #### java -cp .:/media/vijani/2CB4BCFFB4BCCD18/Vijani_projects/OCP-17-Practice/Hardcoded/JarExample/LotteryLib.jar com/postcode/main/Main

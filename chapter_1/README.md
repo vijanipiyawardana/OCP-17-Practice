@@ -102,7 +102,7 @@ java packageb.ClassB
 
 - Compiling with wildcard: use \* to include all java files in a directory, if you have a lot of files in a package
 ```shell
-javac packagea/\*.java packageb/\*.java
+javac packagea/*.java packageb/*.java
 ``` 
 
 - Compiling to another directory: into build directory
@@ -125,6 +125,20 @@ java --class-path build packageb.ClassB
 ```
 
 ### Compiling with JAR file.
+[`LotteryDraw`](3_packages/jar_example/LotteryLib/src/com/postcode/draw/LotteryDraw.java)<br>
+[`Main`](3_packages/jar_example/LotteryLib/src/com/postcode/main/Main.java)<br>
+- first compile LotteryDraw.java
+```shell
+javac jar_example/LotteryLib/src/com/postcode/draw/LotteryDraw.java
+```
+- create LotteryDraw.jar in current folder: 3_packages
+```shell
+jar -cvf LotteryLib.jar jar_example/LotteryLib/src/com/postcode/draw/*.class
+```
+- to make the LotteryDraw.jar inside folder: 3_packages/jar_example
+```shell
+
+```
 
 ## 1.3. Jar example
 

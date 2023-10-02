@@ -1,8 +1,8 @@
-package com.postcode.main;
-
-import com.postcode.draw.LotteryDraw;
+package jar_example.LotteryMain.src.com.postcode.main;
 
 import java.io.*;
+
+import jar_example.LotteryLib.src.com.postcode.draw.LotteryDraw;
 
 public class Main{
 	public static void main(String arg[]) throws IOException{

@@ -1,4 +1,4 @@
-package com.postcode.draw;
+package jar_example.LotteryLib.src.com.postcode.draw;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -37,7 +37,7 @@ public class LotteryDraw{
 	}
 
 	public void makeWinnerList() throws IOException{
-		String file = "/media/vijani/2CB4BCFFB4BCCD18/Vijani_projects/OCP-17-Practice/Hardcoded/JarExample/postcodes.txt";
+		String file = "./jar_example/postcodes.txt";
 		BufferedReader bufReader = new BufferedReader(new FileReader(file));
 		String line = null; 
 		while ((line = bufReader.readLine()) != null) { 
