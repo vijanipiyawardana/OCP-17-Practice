@@ -140,7 +140,7 @@ jar -cvf LotteryLib.jar jar_example/LotteryLib/src/com/postcode/draw/*.class
 
 ```
 
-## 1.3. Jar example
+### Ordering elements in a class
 
 ## 1.4. Creating objects
 
