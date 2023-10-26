@@ -1,11 +1,9 @@
-package com.vijani.entity;
-
 /**
  * This is a simple Java Bean Class
  * @author Vijani Piyawardana
  * @version 17
  */
-public class Animal {
+public class AnimalComment {
 
     // field
     private String name;
