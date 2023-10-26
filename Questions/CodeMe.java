@@ -12,6 +12,34 @@ public class CodeMe {
 }
 
 /*
+ * Compiled successfully. 
+ * Run output: false
+*/
+// public class CodeMe {
+//   public static void main(String[] args) {
+//     boolean flag = false;
+//     if (false)          // (1)
+//       flag = !flag;
+//     System.out.println(flag);
+//   }
+// }
+
+
+/*
+ * Compilation failed: CodeMe.java:14: error: unreachable statement
+      flag = !flag;
+*/
+// public class CodeMe {
+//   public static void main(String[] args) {
+//     boolean flag = false;
+//     while (false)          // (1)
+//       flag = !flag;
+//     System.out.println(flag);
+//   }
+// }
+
+
+/*
  * Compilation failed: CodeMe.java:14: error: unreachable statement
       flag = !flag;
  */
