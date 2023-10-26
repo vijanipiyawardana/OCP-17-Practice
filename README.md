@@ -1,11 +1,22 @@
 # OCP 17 Practice projects
 
+### compile and have .class file in build folder
+``` shell 
+javac -d build Filename.java 
+```
+
+### run the file
+``` shell
+java -cp build CodeMe
+```
+
+
 
 
 ``` diff
 - creating and using a .jar file
 ```
-
+  
 ### OCP-17-Practice/Hardcoded/JarExample
 
 ##### inside this folder: JarExample/LotteryLib/src
