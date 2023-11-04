@@ -164,6 +164,26 @@ Note: (here, : is used to separate different class paths. If you want to conside
 
 ## 1.4. Creating objects
 
+
+
 ## 1.5. Data types
 
 ## 1.6. Declaring variables
+
+## 1.7. Questions
+
+### 1.7.1. Review Questions
+
+- Q1
+[`Rabbit.java`](Questions/Rabbit.java)
+- Q2
+- Q3
+- Q4
+- Q11
+[`Water.java`](Questions/aquarium/Water.java)
+[`Tank.java`](Questions/aquarium/Tank.java)
+- Q13
+[`Water.java`](Questions/aquarium/Water.java)
+[`Water.java`](Questions/aquarium/jellies/Water.java)
+[`WaterFiller.java`](Questions/employee/WaterFiller.java)
+
