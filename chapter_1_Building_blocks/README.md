@@ -154,6 +154,12 @@ Note: (here, : is used to separate different class paths. If you want to conside
 
 ### 1.3.4. Ordering elements in a class
 
+- Package declaration
+- import statements
+- Top-level type declaration: public class A --> this is required
+- Field declarations
+- Mathod declarations
+
 ## 1.4. Creating objects
 
 ## 1.5. Data types
