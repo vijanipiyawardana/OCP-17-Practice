@@ -70,7 +70,7 @@ java Zoo.java Zoo
 ```
 
 ## 1.3. Packages
-### Using Java Packages
+### 1.3.1. Using Java Packages
 - import from packages to use a java class
 [`NumberPickerError.java`](3_packages/NumberPickerError.java)
 [`NumberPickerCorrect.java`](3_packages/NumberPickerCorrect.java) <br>
@@ -84,7 +84,7 @@ java Zoo.java Zoo
 - Naming conflicts
 [`NamingConflicts`](3_packages/NamingConflicts.java)
 
-### Create a new package
+### 1.3.2. Create a new package
 ClassA.java in packagea [`ClassA`](3_packages/packagea/ClassA.java)<br>
 ClassB.java in packageb [`ClassB`](3_packages/packageb/ClassB.java)
 - Compile both at once
@@ -124,7 +124,7 @@ java -classpath build packageb.ClassB
 java --class-path build packageb.ClassB
 ```
 
-### Compiling with JAR file.
+### 1.3.3. Compiling with JAR file.
 [`LotteryDraw`](3_packages/jar_example/LotteryLib/src/com/postcode/draw/LotteryDraw.java)<br>
 [`Main`](3_packages/jar_example/LotteryMain/src/com/postcode/main/Main.java)<br>
 [`postcodes`](3_packages/jar_example/postcodes.txt)<br>
@@ -152,7 +152,7 @@ java -cp .:/home/vijani/Documents/kata/OCP-17-Practice/chapter_1_Building_blocks
 Note: (here, : is used to separate different class paths. If you want to consider .jar files in multiple class paths, you can use : to put them into class path. And a . (dot) means the current folder. It says to consider the Main class in the current folder to run)
 <br>
 
-### Ordering elements in a class
+### 1.3.4. Ordering elements in a class
 
 ## 1.4. Creating objects
 
