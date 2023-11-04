@@ -1,8 +1,8 @@
-package jar_example.LotteryMain.src.com.postcode.main;
+package com.postcode.main;
 
 import java.io.*;
 
-import jar_example.LotteryLib.src.com.postcode.draw.LotteryDraw;
+import com.postcode.draw.LotteryDraw;
 
 public class Main{
 	public static void main(String arg[]) throws IOException{
@@ -17,7 +17,6 @@ public class Main{
 
 		winner = lotteryDraw.getWinner();
 		System.out.println("The 3rd winner is : " + winner);
-	
 		
 	}
 }
