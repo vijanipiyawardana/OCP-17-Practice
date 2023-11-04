@@ -160,6 +160,8 @@ Note: (here, : is used to separate different class paths. If you want to conside
 - Field declarations
 - Mathod declarations
 
+[`Meerkat.java`](3_packages/ordering-elements/Meerkat.java)
+
 ## 1.4. Creating objects
 
 ## 1.5. Data types
