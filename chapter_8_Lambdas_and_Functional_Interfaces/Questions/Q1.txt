@@ -1,0 +1,18 @@
+interface IA            { boolean equals(Object obj); }
+interface IB extends IA { boolean doIt(String str); }
+interface IC extends IB { boolean doIt(String str); }
+interface ID extends IC { boolean equals(Object obj);}
+
+Answer: IB is a functional interface.
+
+Explanation:
+A functional interface is an interface that has only one abstract method, 
+aside from the abstract method declarations of public methods from the Object class. 
+This single abstract method declaration can be the result of inheriting multiple declarations 
+of the abstract method from superinterfaces.
+All except IA are functional interfaces. IA does not define an abstract method, 
+as it provides only an abstract method declaration of the concrete public method equals() 
+from the Object class. IB defines a single abstract method, doIt(). 
+IC overrides the abstract method from IB, so effectively it has only one abstract method. 
+IC inherits the abstract method doIt() from IB and overrides the equals() method
+from IA, so effectively it also has only one abstract method.
