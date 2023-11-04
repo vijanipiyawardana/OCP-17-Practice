@@ -129,28 +129,28 @@ java --class-path build packageb.ClassB
 [`Main`](3_packages/jar_example/LotteryMain/src/com/postcode/main/Main.java)<br>
 [`postcodes`](3_packages/jar_example/postcodes.txt)<br>
 - first compile LotteryDraw.java
--- you are inside folder: chapter_1_Building_blocks/3_packages/jar_example/LotteryLib/src
+- you are inside folder: chapter_1_Building_blocks/3_packages/jar_example/LotteryLib/src
 ```shell
 javac -d ../build com/postcode/draw/LotteryDraw.java
 ```
 - create LotteryDraw.jar in current folder
--- you are inside folder: chapter_1_Building_blocks/3_packages/jar_example/LotteryLib/build
+- you are inside folder: chapter_1_Building_blocks/3_packages/jar_example/LotteryLib/build
 ```shell
 jar -cvf LotteryLib.jar com/postcode/draw/*.class
 ```
 - compile Main.java with LotteryLib.jar
--- you are inside folder: chapter_1_Building_blocks/3_packages/jar_example/LotteryMain/src
+- you are inside folder: chapter_1_Building_blocks/3_packages/jar_example/LotteryMain/src
 ```shell
 javac -cp /home/vijani/Documents/kata/OCP-17-Practice/chapter_1_Building_blocks/3_packages/jar_example/LotteryLib/build/LotteryLib.jar -d ../build com/postcode/main/Main.java
 ```
 - run Main with LotteryLib.jar
--- you are inside folder: chapter_1_Building_blocks/3_packages/jar_example/LotteryMain/build
+- you are inside folder: chapter_1_Building_blocks/3_packages/jar_example/LotteryMain/build
 ```shell
 java -cp .:/home/vijani/Documents/kata/OCP-17-Practice/chapter_1_Building_blocks/3_packages/jar_example/LotteryLib/build/LotteryLib.jar com/postcode/main/Main
 ```
 
 Note: (here, : is used to separate different class paths. If you want to consider .jar files in multiple class paths, you can use : to put them into class path. And a . (dot) means the current folder. It says to consider the Main class in the current folder to run)
-
+<br>
 
 ### Ordering elements in a class
 
