@@ -1,5 +1,5 @@
 // class definition : code block
-public class Chick{
+public class Chick {
 
 	int numEggs = 12; // initialize on line
 	int numLegs; // instance variable

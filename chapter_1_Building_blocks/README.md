@@ -206,6 +206,10 @@ public class Chick {
 - execute order: on line initialize fields, run instance initializer, run constructor, run main method
 [`Chick.java`](4_creating_objects/com/farm/Chick.java)
 [`Egg.java`](4_creating_objects/com/farm/Egg.java)
+```shell
+4_creating_objects/com/farm$ javac -d ../../build Egg.java
+4_creating_objects/com/farm$ java -cp ../../build com.farm.Egg 
+```
 - order matters: can't refer to a variable before it has been defined
 ```java
 { System.out.println(name); } // DOES NOT COMPILE

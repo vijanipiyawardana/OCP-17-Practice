@@ -16,3 +16,11 @@ public class Chick {
         System.out.println(chick.name);
     }
 }
+
+/**
+ * 
+ * Output:
+        setting field
+        setting constructor
+        Tiny
+ */

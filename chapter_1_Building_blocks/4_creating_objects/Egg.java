@@ -1,5 +1,5 @@
 // class definition : code block
-public class Egg{
+public class Egg {
 
 	// initialize on line
 	private int number = 3;
