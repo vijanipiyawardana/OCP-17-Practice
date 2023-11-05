@@ -164,7 +164,49 @@ Note: (here, : is used to separate different class paths. If you want to conside
 
 ## 1.4. Creating objects
 
+### 1.4.1. Calling Constructors
+- create an instance of a class, calling constructor
+```java
+Park p = new Park();
+```
+- Constructor name matches the class name
+- Constructor has no return type
+```java
+public class Chick {
+  public Chick() {
+    System.out.println("in constructor");
+  }
+}
+```
+```java
+public class Chick {
+  public void Chick() {} // NOT A CONSTRUCTOR
+}
+```
+- compiler will supply a default constructor
+<br>
+- initialize fields: by using constructor or initialize on line 
 
+[`Chicken.java`](4_creating_objects/com/farm/Chicken.java)
+<br>
+
+### 1.4.2. Reading and writing member fields
+- Can read and write instance varables directly from the caller: main() method
+
+[`Swan.java`](4_creating_objects/com/farm/Swan.java)
+
+- Can read values of already initialized fields on a line initializing a new field
+
+[`Name.java`](4_creating_objects/com/farm/Name.java)
+
+### 1.4.3. Executing instance initializer blocks
+
+[`Bird.java`](4_creating_objects/com/farm/Bird.java)
+
+### 1.4.4. Order of initialization
+
+[`Chick.java`](4_creating_objects/com/farm/Chick.java)
+[`Egg.java`](4_creating_objects/com/farm/Egg.java)
 
 ## 1.5. Data types
 
