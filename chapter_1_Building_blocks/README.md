@@ -184,7 +184,7 @@ public class Chick {
 }
 ```
 - compiler will supply a default constructor
-<br>
+
 - initialize fields: by using constructor or initialize on line 
 
 [`Chicken.java`](4_creating_objects/com/farm/Chicken.java)
@@ -200,7 +200,9 @@ public class Chick {
 [`Name.java`](4_creating_objects/com/farm/Name.java)
 
 ### 1.4.3. Executing instance initializer blocks
-
+- code block: code inside braces {}
+- code blocks inside a method are run when method is called
+- code blocks appear outside a method: instance initializers
 [`Bird.java`](4_creating_objects/com/farm/Bird.java)
 
 ### 1.4.4. Order of initialization
