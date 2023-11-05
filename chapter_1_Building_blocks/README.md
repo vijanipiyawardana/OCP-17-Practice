@@ -186,17 +186,14 @@ public class Chick {
 - compiler will supply a default constructor
 
 - initialize fields: by using constructor or initialize on line 
-
 [`Chicken.java`](4_creating_objects/com/farm/Chicken.java)
 <br>
 
 ### 1.4.2. Reading and writing member fields
 - Can read and write instance varables directly from the caller: main() method
-
 [`Swan.java`](4_creating_objects/com/farm/Swan.java)
 
 - Can read values of already initialized fields on a line initializing a new field
-
 [`Name.java`](4_creating_objects/com/farm/Name.java)
 
 ### 1.4.3. Executing instance initializer blocks
@@ -206,9 +203,14 @@ public class Chick {
 [`Bird.java`](4_creating_objects/com/farm/Bird.java)
 
 ### 1.4.4. Order of initialization
-
+- execute order: on line initialize fields, run instance initializer, run constructor, run main method
 [`Chick.java`](4_creating_objects/com/farm/Chick.java)
 [`Egg.java`](4_creating_objects/com/farm/Egg.java)
+- order matters: can't refer to a variable before it has been defined
+```java
+{ System.out.println(name); } // DOES NOT COMPILE
+private String name = "Fluffy";
+```
 
 ## 1.5. Data types
 
