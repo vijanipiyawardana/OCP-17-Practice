@@ -218,6 +218,22 @@ private String name = "Fluffy";
 
 ## 1.5. Data types
 
+### 1.5.1. Primitive types
+| Keyword |          Type         | Min val | Max val  | Default value  | Example |
+| ------- | --------------------- | ------- | -------- | ------------- | ------------- |
+| boolean | true or false         |     n/a |      n/a | |  |
+| byte    | 8-bit integral value  |    -2^7 |  2^7 - 1 | |  |
+| short   | 16-bit integral value |   -2^15 | 2^15 - 1 | |  |
+| int     | 32-bit integral value |   -2^31 | 2^32 - 1 | |  |
+| long    | 64-bit integral value |   -2^63 | 2^63 - 1 | |  |
+| float   | 32-bit floatig-point  |     n/a |      n/a | |  |
+| double  | 64-bit floating point |     n/a |      n/a | |  |
+| char    | 16-bit unicode value  |       0 | 2^16 - 1 | |  |
+
+[`PrimitiveType.java`](5_data_types/PrimitiveType.java)
+
+### 1.5.2. Reference types
+
 ## 1.6. Declaring variables
 
 ## 1.7. Questions
