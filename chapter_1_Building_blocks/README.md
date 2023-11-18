@@ -239,6 +239,8 @@ private String name = "Fluffy";
 [`ReferenceType.java`](5_data_types/ReferenceType.java)
 - refers to an object
 - hold a reference points to an object by storing the memory address of where the object is created.
+  ![IMG_20231118_012520](https://github.com/vijanipiyawardana/OCP-17-Practice/assets/6631956/aa1a8827-3c7d-409f-b768-0bfdea525bee)
+
 
 ### 1.5.2. Reference types
 
