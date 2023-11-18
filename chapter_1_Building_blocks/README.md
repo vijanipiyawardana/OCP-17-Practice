@@ -219,18 +219,26 @@ private String name = "Fluffy";
 ## 1.5. Data types
 
 ### 1.5.1. Primitive types
-| Keyword |          Type         | Min val | Max val  | Default value  | Example |
-| ------- | --------------------- | ------- | -------- | ------------- | ------------- |
-| boolean | true or false         |     n/a |      n/a | |  |
-| byte    | 8-bit integral value  |    -2^7 |  2^7 - 1 | |  |
-| short   | 16-bit integral value |   -2^15 | 2^15 - 1 | |  |
-| int     | 32-bit integral value |   -2^31 | 2^32 - 1 | |  |
-| long    | 64-bit integral value |   -2^63 | 2^63 - 1 | |  |
-| float   | 32-bit floatig-point  |     n/a |      n/a | |  |
-| double  | 64-bit floating point |     n/a |      n/a | |  |
-| char    | 16-bit unicode value  |       0 | 2^16 - 1 | |  |
+| Keyword |          Type         | Min val | Max val  | Default val | Example |
+| ------- | --------------------- | ------- | -------- | ----------- | ------- |
+| boolean | true or false         |     n/a |      n/a |    false    |   true  |
+| byte    | 8-bit integral value  |    -2^7 |  2^7 - 1 |      0      |    123  |
+| short   | 16-bit integral value |   -2^15 | 2^15 - 1 |      0      |    123  |
+| int     | 32-bit integral value |   -2^31 | 2^32 - 1 |      0      |    123  |
+| long    | 64-bit integral value |   -2^63 | 2^63 - 1 |      0L     |    123L |
+| float   | 32-bit floatig-point  |     n/a |      n/a |      0.0f   | 123.45f |
+| double  | 64-bit floating point |     n/a |      n/a |      0.0    | 123.456 |
+| char    | 16-bit unicode value  |       0 | 2^16 - 1 |    \u0000   |    'a'  |
 
 [`PrimitiveType.java`](5_data_types/PrimitiveType.java)
+- String is an opject, not a primitive type
+- All numeric types are signed and reverse one bit to cover a negative range
+- short and char: both are integral types with 16-bit size. short is signed, char is unsigned include 0. Can cast to one another.
+- hold values in memory when the variable is allocated.
+[`Literals.java`](5_data_types/Literals.java)
+[`ReferenceType.java`](5_data_types/ReferenceType.java)
+- refers to an object
+- hold a reference points to an object by storing the memory address of where the object is created.
 
 ### 1.5.2. Reference types
 

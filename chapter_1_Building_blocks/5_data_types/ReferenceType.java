@@ -2,8 +2,7 @@ public class ReferenceType{
 
 	public static void main(String args[]){
 
-		// String 
-
+		//-------------------- String 
 		String greeting1 = new String("Ayubowan!"); // String object. 
 
 		String greeting2 = "Ayubowan!"; // String literal. Goes to String pool.
@@ -31,7 +30,7 @@ public class ReferenceType{
 		// int num = null; // DOES NOT COMPILE
 
 
-		// Wrapper classes
+		//--------------------- Wrapper classes
 
 		// Converts String into the Wrapper class
 		Double apple = Double.valueOf("200.99");
