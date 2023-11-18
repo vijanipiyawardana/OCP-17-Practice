@@ -3,7 +3,7 @@ public class ReferenceType{
 	public static void main(String args[]){
 
 		//-------------------- String 
-		String greeting1 = new String("Ayubowan!"); // String object. 
+		String greeting1 = new String("Ayubowan!"); // String object. In heap.
 
 		String greeting2 = "Ayubowan!"; // String literal. Goes to String pool.
 
