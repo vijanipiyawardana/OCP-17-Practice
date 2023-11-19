@@ -7,9 +7,13 @@ public class Demo {
      * 
      * How to declare an exception:
      * 
-     * throw keyword says to Java, you want to throw an Exception
-     * throws keyword declares that the method might throw an Exception, also might
-     * not.
+     * throw keyword:
+     *      says to Java, you want to throw a new Exception or rethrow an existing exception.
+     *      used as a statement inside a code block.
+     * throws keyword:
+     *      declares that the method might throw an Exception, also might not.
+     *      indicates what Exception it supports.
+     *      used only at the end of a method declaration.  
      * 
      * Compile error: Unhandled exception type IOException
      * error: unreported exception IOException; must be caught or declared to be thrown

@@ -11,4 +11,10 @@
 ![Screenshot from 2023-11-18 23-35-07](https://github.com/vijanipiyawardana/OCP-17-Practice/assets/6631956/a5b28754-e21c-4ea4-bfe4-38219b6e780b)<br>
 - 3. Error: System error - OS is down, disk drive dissapeared, ran out of memory. inherits **Error**. Your code should not attempt to recover from it.
 
-[`Demo.java`](1_understanding/Demo.java)
+[`Demo.java`](1_understanding_exceptions/Demo.java)
+
+## 11.2. Throwing an exception
+- Two types of code that result in an exception.
+- can pass a String parameter with a message when creating an exception, or you can pass no parameters and use the defaults.
+- Exception is an Object, can store in an object reference.
+[`Demo.java`](2_throwing_an_exception/Demo.java)
