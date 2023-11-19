@@ -18,3 +18,13 @@
 - can pass a String parameter with a message when creating an exception, or you can pass no parameters and use the defaults.
 - Exception is an Object, can store in an object reference.
 [`Demo.java`](2_throwing_an_exception/Demo.java)
+<br>
+
+- Calling methods that throw exceptions
+[`Bunny1.java`](2_throwing_an_exception/Bunny1.java)
+- When a checked exception declared inside a catch block, make sure the code in the associated try block is capable of throwing the exception or a subclass of the exception. If not, the code is unreachable and does not compile.
+[`Bunny2.java`](2_throwing_an_exception/Bunny2.java)
+- Overriding methods with exceptions
+[`Bunny3.java`](2_throwing_an_exception/Bunny3.java)
+
+## 11.3. Exception classes
