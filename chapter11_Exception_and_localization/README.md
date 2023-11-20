@@ -33,4 +33,19 @@
 [`Bunny.java`](2_throwing_an_exception/Bunny.java)
 
 ## 11.3. Exception classes
+- RuntimeException classes - unchecked exceptions
 ![Screenshot from 2023-11-20 17-56-23](https://github.com/vijanipiyawardana/OCP-17-Practice/assets/6631956/58a75f52-c18e-4ce7-bc1d-3634be214442)
+[`RuntimeExceptions.java`](3_exception_classes/RuntimeExceptions.java)
+- **Helpful NullPointerException**: The JVM now tells you the object reference that triggered the NullPointerException! Ex: "<parameter1>"
+[`Frog.java`](3_exception_classes/Frog.java)
+[`Demo.java`](3_exception_classes/Demo.java)
+<br>
+- Checked exceptions
+
+<br>
+- Error
+
+## 11.4. Handling exceptions
+
+
+## 11.5. Automatic resource management
