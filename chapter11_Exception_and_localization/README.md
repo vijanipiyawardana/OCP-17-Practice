@@ -29,5 +29,7 @@
 [`Bunny3.java`](2_throwing_an_exception/Bunny3.java)
 - An overriden method not declaring one of the exceptions thrown by the parent method is legal.
 [`Bunny4.java`](2_throwing_an_exception/Bunny4.java)
+- Printing an exception: 3 ways
+[`Bunny.java`](2_throwing_an_exception/Bunny.java)
 
 ## 11.3. Exception classes
