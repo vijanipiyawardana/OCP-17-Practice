@@ -36,14 +36,23 @@
 - RuntimeException classes - unchecked exceptions
 ![Screenshot from 2023-11-20 17-56-23](https://github.com/vijanipiyawardana/OCP-17-Practice/assets/6631956/58a75f52-c18e-4ce7-bc1d-3634be214442)<br>
 [`RuntimeExceptions.java`](3_exception_classes/RuntimeExceptions.java)
-- **Helpful NullPointerException**: The JVM now tells you the object reference that triggered the NullPointerException! Ex: <parameter1><br>
+- **Helpful NullPointerException**: The JVM now tells you the object reference that triggered the NullPointerException!<br>
 [`Frog.java`](3_exception_classes/Frog.java)<br>
 [`Demo.java`](3_exception_classes/Demo.java)
 <br>
+
 - Checked exceptions
+![Alt text](<Screenshot from 2023-11-21 00-38-55.png>)<br>
+- must be handled or declared
+- FileNotFoundException and NotSerializableException are subclasses of IOException
 
 <br>
 - Error
+![Alt text](<Screenshot from 2023-11-21 00-40-56.png>)<br>
+
+- Errors are unchecked exceptions that extend the Error class. 
+- They are thrown by the JVM and should not be handled or declared. 
+- the code is often unable to recover from them.
 
 ## 11.4. Handling exceptions
 
