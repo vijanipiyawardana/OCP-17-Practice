@@ -25,6 +25,9 @@
 - When a checked exception declared inside a catch block, make sure the code in the associated try block is capable of throwing the exception or a subclass of the exception. If not, the code is unreachable and does not compile.
 [`Bunny2.java`](2_throwing_an_exception/Bunny2.java)
 - Overriding methods with exceptions
+- An overridden method may not declare any new or broader checked exceptions than the method it inherits.
 [`Bunny3.java`](2_throwing_an_exception/Bunny3.java)
+- An overriden method not declaring one of the exceptions thrown by the parent method is legal.
+[`Bunny4.java`](2_throwing_an_exception/Bunny4.java)
 
 ## 11.3. Exception classes
