@@ -41,14 +41,15 @@
 [`Demo.java`](3_exception_classes/Demo.java)
 <br>
 
-- Checked exceptions
+- Checked exceptions <br>
 ![Alt text](<Screenshot from 2023-11-21 00-38-55.png>)<br>
 - must be handled or declared
 - FileNotFoundException and NotSerializableException are subclasses of IOException
 
 <br>
-- Error
-![Alt text](<Screenshot from 2023-11-21 00-40-56.png>)<br>
+- Error <br>
+
+![Alt text](<Screenshot from 2023-11-21 00-40-56-1.png>)<br>
 
 - Errors are unchecked exceptions that extend the Error class. 
 - They are thrown by the JVM and should not be handled or declared. 
