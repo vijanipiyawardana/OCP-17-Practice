@@ -34,10 +34,10 @@
 
 ## 11.3. Exception classes
 - RuntimeException classes - unchecked exceptions
-![Screenshot from 2023-11-20 17-56-23](https://github.com/vijanipiyawardana/OCP-17-Practice/assets/6631956/58a75f52-c18e-4ce7-bc1d-3634be214442)
+![Screenshot from 2023-11-20 17-56-23](https://github.com/vijanipiyawardana/OCP-17-Practice/assets/6631956/58a75f52-c18e-4ce7-bc1d-3634be214442)<br>
 [`RuntimeExceptions.java`](3_exception_classes/RuntimeExceptions.java)
-- **Helpful NullPointerException**: The JVM now tells you the object reference that triggered the NullPointerException! Ex: "<parameter1>"
-[`Frog.java`](3_exception_classes/Frog.java)
+- **Helpful NullPointerException**: The JVM now tells you the object reference that triggered the NullPointerException! Ex: "<parameter1>"<br>
+[`Frog.java`](3_exception_classes/Frog.java)<br>
 [`Demo.java`](3_exception_classes/Demo.java)
 <br>
 - Checked exceptions
