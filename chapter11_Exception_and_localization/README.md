@@ -47,6 +47,7 @@
 - FileNotFoundException and NotSerializableException are subclasses of IOException
 
 <br>
+
 - Error <br>
 
 ![Alt text](<Screenshot from 2023-11-21 00-40-56-1.png>)<br>
@@ -57,5 +58,11 @@
 
 ## 11.4. Handling exceptions
 
+- try and catch Statements [`LittleGirl.java`](4_handling_exceptions/LittleGirl.java)
+    - curly braces are required in try statements even with only one statement.
+    - try block should have catch/finally block after that.
+- Chaining catch Blocks
+- Applying a Multi-­catch Block
+- Adding a finally Block
 
 ## 11.5. Automatic resource management
