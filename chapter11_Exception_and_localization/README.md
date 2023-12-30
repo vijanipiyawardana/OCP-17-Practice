@@ -61,7 +61,10 @@
 - try and catch Statements [`LittleGirl.java`](4_handling_exceptions/LittleGirl.java)
     - curly braces are required in try statements even with only one statement.
     - try block should have catch/finally block after that.
-- Chaining catch Blocks
+- Chaining catch Blocks [`Safari.java`](4_handling_exceptions/Safari.java)
+    - not possible for both catch blocks to be executed when chained together like this.
+    - order of the catch blocks: Java looks at them in the order they appear.
+    - if it is impossible for one of the catch blocks to be executed: a compile error about unreachable code occures. Ex: when a superclass catch block appears before a subclass catch block. 
 - Applying a Multi-­catch Block
 - Adding a finally Block
 

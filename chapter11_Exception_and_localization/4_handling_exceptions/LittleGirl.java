@@ -1,3 +1,8 @@
+/*
+ * try and catch statements
+ *
+*/
+
 public class LittleGirl {
 
     void explore() {
