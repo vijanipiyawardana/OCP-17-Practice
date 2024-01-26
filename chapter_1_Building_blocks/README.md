@@ -319,4 +319,5 @@ More about autoboxing unboxing >> [`Chapter_5`](../chapter_5_Methods/)
 - Q21 
 [`Salmon.java`](4_creating_objects/Questions/Salmon.java)
 - Q22
+[`Price.java`](5_data_types/Questions/Price.java)
 - Q23
