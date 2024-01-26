@@ -231,18 +231,39 @@ private String name = "Fluffy";
 | char    | 16-bit unicode value  |       0 | 2^16 - 1 |    \u0000   |    'a'  |
 
 [`PrimitiveType.java`](5_data_types/PrimitiveType.java)
-- String is an opject, not a primitive type
 - All numeric types are signed and reverse one bit to cover a negative range
 - short and char: both are integral types with 16-bit size. short is signed, char is unsigned include 0. Can cast to one another.
 - hold values in memory when the variable is allocated.
-[`Literals.java`](5_data_types/Literals.java)
-[`ReferenceType.java`](5_data_types/ReferenceType.java)
-- refers to an object
-- hold a reference points to an object by storing the memory address of where the object is created.
-  ![IMG_20231118_012520](https://github.com/vijanipiyawardana/OCP-17-Practice/assets/6631956/aa1a8827-3c7d-409f-b768-0bfdea525bee)
+- has lowecase type names
+- primitives do not have methods declared on them
+- cannot assign null
 
+#### 1.5.1.1. Literals
+
+[`Literals.java`](5_data_types/Literals.java)
 
 ### 1.5.2. Reference types
+
+- refers to an object
+- hold a reference **points** to an object by storing the memory address of where the object is created.
+- ex: String is an object, not a primitive type
+- A value is assigned into a reference in one of two ways:
+  1. to aother object of same type or compatible type
+  2. to a new object using new keyword
+- can be used to call methods, assuming  the reference is not null.
+- can be assigned null 
+
+[`ReferenceType.java`](5_data_types/ReferenceType.java)
+
+  ![IMG_20231118_012520](https://github.com/vijanipiyawardana/OCP-17-Practice/assets/6631956/aa1a8827-3c7d-409f-b768-0bfdea525bee)
+
+- if you don't know the value of an int and want to assign it to null? You can use numeric wrapper class, Integer instead of int.
+
+
+### 1.5.3. Wrapper Classes
+
+### 1.5.4. Text Blocks
+
 
 ## 1.6. Declaring variables
 
