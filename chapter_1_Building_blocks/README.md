@@ -255,7 +255,7 @@ private String name = "Fluffy";
 
 [`ReferenceType.java`](5_data_types/ReferenceType.java)
 
-  ![IMG_20231118_012520](https://github.com/vijanipiyawardana/OCP-17-Practice/assets/6631956/aa1a8827-3c7d-409f-b768-0bfdea525bee)
+  ![Alt text](../assets/string.jpg)
 
 - if you don't know the value of an int and want to assign it to null? You can use numeric wrapper class, Integer instead of int.
 
