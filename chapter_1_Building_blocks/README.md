@@ -262,6 +262,8 @@ private String name = "Fluffy";
 
 ### 1.5.3. Wrapper Classes
 
+- each primitive type has a wrapper class, which is an object type that corresponds to the primitive.
+[`Wrapper.java`](5_data_types/Wrapper.java)
 ![Alt text](../assets/wrapper-classes.png)
 
 ### 1.5.4. Text Blocks
