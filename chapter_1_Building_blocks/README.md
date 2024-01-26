@@ -262,7 +262,7 @@ private String name = "Fluffy";
 
 ### 1.5.3. Wrapper Classes
 
-![Alt text](<Screenshot from 2024-01-26 22-27-54.png>)
+![Alt text](../assets/wrapper-classes.png)
 
 ### 1.5.4. Text Blocks
 
