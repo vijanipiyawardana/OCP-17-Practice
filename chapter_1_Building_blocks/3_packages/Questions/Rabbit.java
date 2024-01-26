@@ -17,10 +17,10 @@ package animals;        // Z
  * 
  * Answers: C, D, E
  * Explanation:
- *  The package and import statements are both optional. If both are present, the
-order must be package, then import, and then class. Option A is incorrect because
-class is before package and import. Option B is incorrect because import is before
-package. Option F is incorrect because class is before package.
+ *     The package and import statements are both optional. If both are present, the
+       order must be package, then import, and then class. Option A is incorrect because
+       class is before package and import. Option B is incorrect because import is before
+       package. Option F is incorrect because class is before package.
  * 
  * 
  */

@@ -266,26 +266,57 @@ private String name = "Fluffy";
 [`Wrapper.java`](5_data_types/Wrapper.java)
 ![Alt text](../assets/wrapper-classes.png)
 
+More about autoboxing unboxing >> [`Chapter_5`](../chapter_5_Methods/)
+
 ### 1.5.4. Text Blocks
+[`TextBlock.java`](5_data_types/TextBlock.java)
 
+## 1.6. Variables
 
-## 1.6. Declaring variables
+### 1.6.1. Declaring variables
 
-## 1.7. Questions
+### 1.6.2. Initializing variables
 
-### 1.7.1. Review Questions
+### 1.6.3. Managing variable scope
+
+## 1.7. Destroying Objects
+
+## 1.8. Questions
+
+### 1.8.1. Review Questions
 
 - Q1
+[`Q1MainMethod.java`](2_main_method/Questions/Q1MainMethod.java)
 - Q2
 [`Rabbit.java`](3_packages/Questions/Rabbit.java)
 - Q3
+[`Bunny.java`](4_creating_objects/Questions/Bunny.java)
 - Q4
 - Q5
+- Q6
+- Q7
+- Q8
+- Q9
+- Q10
+[`MagicData.java`](5_data_types/Questions/MagicData.java)
 - Q11
 [`Water.java`](3_packages/Questions/aquarium/Water.java)
 [`Tank.java`](3_packages/Questions/aquarium/Tank.java)
+- Q12
+[`ClownFish.java`](4_creating_objects/Questions/ClownFish.java)
 - Q13
 [`Water.java`](3_packages/Questions/aquarium/Water.java)
 [`Water.java`](3_packages/Questions/aquarium/jellies/Water.java)
 [`WaterFiller.java`](3_packages/Questions/employee/WaterFiller.java)
-
+- Q14
+[`Demo.java`](5_data_types/Questions/Demo.java)
+- Q15
+- Q16
+- Q17
+- Q18
+- Q19
+- Q20
+- Q21 
+[`Salmon.java`](4_creating_objects/Questions/Salmon.java)
+- Q22
+- Q23

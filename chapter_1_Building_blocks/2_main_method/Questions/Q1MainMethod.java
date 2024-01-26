@@ -8,7 +8,14 @@ line? (Choose all that apply.)
         E.public static void main(String[] args)    --> Correct. Compile and run successfully.
         F.public static main(String[] args)         --> Compile error: invalid method declaration; return type required
 
-        Correct answers: D, E
+    Correct answers: D, E
+
+    Explaination: 
+        Option E is the canonical main() method signature. You need to memorize it.
+        Option D is an alternate form with the redundant final. Option A is incorrect because the
+        main() method must be public. Options B and F are incorrect because the main() method
+        must have a void return type. Option C is incorrect because the main() method must
+        be static.
  */
 
 public class Q1MainMethod {
