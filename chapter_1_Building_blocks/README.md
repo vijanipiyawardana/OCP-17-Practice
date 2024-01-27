@@ -281,7 +281,7 @@ More about autoboxing unboxing >> [`Chapter_5`](../chapter_5_Methods/)
 - Variable  : piece of memory that stores data
 - initializing a variable : giving a variable a value
 - Identifier : name of a variable, method, class, interface or package
-- 4 rules of a legal identifier:
+- rules of a legal identifier:
   1. Identifiers must begin with a letter, a currency symbol, or a _ symbol. Currency symbols
 include dollar ($), yuan (¥), euro (€), and so on.
   2. Identifiers can include numbers but not start with them.
@@ -302,6 +302,13 @@ include dollar ($), yuan (¥), euro (€), and so on.
 [`Multiple2.java`](6_declaring_variables/Multiple2.java)
 
 ### 1.6.2. Initializing variables
+
+- Local, Instance, Class variables
+
+- Local variable is a variable defined within a constructor, method, or initializer block.
+- Final local variables and Final local variable reference cannot be modified.
+- Local variables do not have a default value and must be initialized before use.
+[`LocalVariable.java`](6_declaring_variables/LocalVariable.java)
 
 ### 1.6.3. Managing variable scope
 

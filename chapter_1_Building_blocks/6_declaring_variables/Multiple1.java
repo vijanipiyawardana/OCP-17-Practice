@@ -4,7 +4,7 @@
 public class Multiple1 {
 
 	/*
-	 * class level
+	 * class variable - class level
 	 * declare 3 variables in the same statement
 	 * but only i3 is initialized with 1
 	 * i1 and i2 takes the default value 0
@@ -27,7 +27,7 @@ public class Multiple1 {
 
 	void paintFence() {
 		/**
-		 * method level
+		 * local variable - method level
 		 * declare 3 variables in the same statement 
 		 * but only i3 is initialized
 		 */
