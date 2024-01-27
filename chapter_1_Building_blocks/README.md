@@ -280,6 +280,14 @@ More about autoboxing unboxing >> [`Chapter_5`](../chapter_5_Methods/)
 
 ### 1.6.1. Declaring variables
 
+- Variable  : piece of memory that stores data
+- initializing a variable : giving a variable a value
+- Identifier : name of a variable, method, class, interface or package
+
+#### 1.6.1.1. Declaring Multiple Variables
+[`Multiple1.java`](6_declaring_variables/Multiple1.java)
+[`Multiple2.java`](6_declaring_variables/Multiple2.java)
+
 ### 1.6.2. Initializing variables
 
 ### 1.6.3. Managing variable scope
