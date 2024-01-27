@@ -15,8 +15,12 @@ public class DefaultValues {
         F. A class variable of type String defaults to the empty string "".
         G. None of the above.
     
-    Answer: 
+    Answer: E
 
     Explaination:
+    Options C and D are incorrect because local variables don’t have default values. Option A
+    is incorrect because float should have a decimal point. Option B is incorrect because prim-
+    itives do not default to null. Option E is correct and option F incorrect because reference
+    types in class variables default to null.
 
  */

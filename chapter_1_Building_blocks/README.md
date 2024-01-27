@@ -303,12 +303,34 @@ include dollar ($), yuan (¥), euro (€), and so on.
 
 ### 1.6.2. Initializing variables
 
-- Local, Instance, Class variables
+#### 1.6.2.1. Local, Instance, Class variables
 
 - Local variable is a variable defined within a constructor, method, or initializer block.
 - Final local variables and Final local variable reference cannot be modified.
 - Local variables do not have a default value and must be initialized before use.
+
 [`LocalVariable.java`](6_declaring_variables/LocalVariable.java)
+
+- Variables passed to a constructor or method are called constructor parameters or method
+parameters, respectively. These parameters are like local variables that have been pre-­
+initialized.
+
+- An instance variable, often called a field, is a value defined within a specific instance of
+an object.
+  ex: Person class with an instance variable name of type String.
+      Each instance of the class would have its own value for name, such as Elysia or Sarah.
+      Two instances could have the same value for name, but changing the value for one does not
+      modify the other.
+
+- a class variable is one that is defined on the class level and shared among all instances of the class. 
+- It can even be publicly accessible to classes outside the class and doesn’t require an instance to use.
+- a variable is a class variable because it has the keyword static before it.
+
+- Instance and class variables do not require you to initialize them. As soon as you declare
+these variables, they are given a default value.
+
+#### 1.6.2.2. Inferring the Type with var
+
 
 ### 1.6.3. Managing variable scope
 
@@ -325,6 +347,7 @@ include dollar ($), yuan (¥), euro (€), and so on.
 - Q3
 [`Bunny.java`](4_creating_objects/Questions/Bunny.java)
 - Q4
+[`Identifier.java`](6_declaring_variables/Questions/Identifier.java)
 - Q5
 - Q6
 - Q7
@@ -349,6 +372,7 @@ include dollar ($), yuan (¥), euro (€), and so on.
 - Q16
 [`Blocky.java`](5_data_types/Questions/Blocky.java)
 - Q17
+[`WaterBottle.java`](6_declaring_variables/Questions/WaterBottle.java)
 - Q18
 - Q19
 - Q20
@@ -357,3 +381,5 @@ include dollar ($), yuan (¥), euro (€), and so on.
 - Q22
 [`Price.java`](5_data_types/Questions/Price.java)
 - Q23
+
+### 1.8.2. Other questions
