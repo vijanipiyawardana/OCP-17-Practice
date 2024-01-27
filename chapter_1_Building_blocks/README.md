@@ -276,6 +276,8 @@ More about autoboxing unboxing >> [`Chapter_5`](../chapter_5_Methods/)
 
 ## 1.6. Variables
 
+![Alt text](../assets/reserved-words.png)
+
 ### 1.6.1. Declaring variables
 
 ### 1.6.2. Initializing variables
@@ -298,8 +300,10 @@ More about autoboxing unboxing >> [`Chapter_5`](../chapter_5_Methods/)
 - Q5
 - Q6
 - Q7
+[`KitchenSink.java`](5_data_types/Questions/KitchenSink.java)
 - Q8
 - Q9
+[`DefaultValues.java`](6_declaring_variables/Questions/DefaultValues.java)
 - Q10
 [`MagicData.java`](5_data_types/Questions/MagicData.java)
 - Q11
@@ -315,6 +319,7 @@ More about autoboxing unboxing >> [`Chapter_5`](../chapter_5_Methods/)
 [`Demo.java`](5_data_types/Questions/Demo.java)
 - Q15
 - Q16
+[`Blocky.java`](5_data_types/Questions/Blocky.java)
 - Q17
 - Q18
 - Q19
