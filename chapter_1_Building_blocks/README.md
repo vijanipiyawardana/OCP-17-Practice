@@ -276,13 +276,26 @@ More about autoboxing unboxing >> [`Chapter_5`](../chapter_5_Methods/)
 
 ## 1.6. Variables
 
-![Alt text](../assets/reserved-words.png)
-
 ### 1.6.1. Declaring variables
 
 - Variable  : piece of memory that stores data
 - initializing a variable : giving a variable a value
 - Identifier : name of a variable, method, class, interface or package
+- 4 rules of a legal identifier:
+  1. Identifiers must begin with a letter, a currency symbol, or a _ symbol. Currency symbols
+include dollar ($), yuan (¥), euro (€), and so on.
+  2. Identifiers can include numbers but not start with them.
+  3. A single underscore _ is not allowed as an identifier.
+  4. You cannot use the same name as a Java reserved word. 
+  5. Cannot use literal values: true, false, null
+  6. Cannot use contextual keywords: module
+  A reserved word is a special word that Java has held aside so that you are not allowed to use it as identifier. Remember that Java is case sensitive, so you can use versions of the keywords that only differ in case. 
+
+![Alt text](../assets/reserved-words.png)
+
+- camalCase and snake_case
+
+[`Identifier.java`](6_declaring_variables/Identifier.java)
 
 #### 1.6.1.1. Declaring Multiple Variables
 [`Multiple1.java`](6_declaring_variables/Multiple1.java)
