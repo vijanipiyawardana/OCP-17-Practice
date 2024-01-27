@@ -269,7 +269,10 @@ private String name = "Fluffy";
 More about autoboxing unboxing >> [`Chapter_5`](../chapter_5_Methods/)
 
 ### 1.5.4. Text Blocks
+
 [`TextBlock.java`](5_data_types/TextBlock.java)
+
+![Alt text](../assets/text_block_formatting.png)
 
 ## 1.6. Variables
 
