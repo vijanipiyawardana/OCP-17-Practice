@@ -331,6 +331,14 @@ these variables, they are given a default value.
 
 #### 1.6.2.2. Inferring the Type with var
 
+- using the keyword **var** instead of the type when declaring local variables under certain conditions. 
+- To use this feature, you just type var instead of the primitive or reference type.
+- The formal name of this feature is **local variable type inference**.
+- type inference: When you type var, you are instructing the compiler to determine the type for you.
+
+
+[`VarKeyword.java`](6_declaring_variables/VarKeyword.java)
+[`Var.java`](6_declaring_variables/Var.java)
 
 ### 1.6.3. Managing variable scope
 
