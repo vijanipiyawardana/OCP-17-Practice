@@ -352,7 +352,22 @@ these variables, they are given a default value.
 
 ## 1.7. Destroying Objects
 
+- Garbage collection refers to the process of automatically freeing memory on the heap by
+deleting objects that are no longer reachable in your program.
+- In Java and other languages, eligible for garbage collection refers to an object’s state of no longer being accessible in a program and therefore able to be garbage collected.
+- When the object actually is discarded is not under your control, but
+for the exam, you will need to know at any given moment which objects are eligible for gar-
+bage collection.
+- Java includes a built-­in method to help support garbage collection where you can suggest
+that garbage collection run. This method is not guaranteed to do anything.
+```
+System.gc();
+```
+- An object is no longer reachable when one of two situations occurs:
+  1. The object no longer has any references pointing to it.
+  2. All references to the object have gone out of scope.
 
+[`GarbageCollect.java`](6_declaring_variables/GarbageCollect.java)
 
 ## 1.8. Questions
 
@@ -367,6 +382,7 @@ these variables, they are given a default value.
 - Q4
 [`Identifier.java`](6_declaring_variables/Questions/Identifier.java)
 - Q5
+[`Bear.java`](6_declaring_variables/Questions/Bear.java)
 - Q6
 [`Camel.java`](6_declaring_variables/Questions/Camel.java)
 - Q7
@@ -389,6 +405,7 @@ these variables, they are given a default value.
 - Q14
 [`Demo.java`](5_data_types/Questions/Demo.java)
 - Q15
+[`GarbageCollect.java`](6_declaring_variables/Questions/GarbageCollect.java)
 - Q16
 [`Blocky.java`](5_data_types/Questions/Blocky.java)
 - Q17
@@ -398,6 +415,7 @@ these variables, they are given a default value.
 - Q19
 [`Var3.java`](6_declaring_variables/Questions/Var3.java)
 - Q20
+[`PoliceBox.java`](6_declaring_variables/Questions/PoliceBox.java)
 - Q21 
 [`Salmon.java`](4_creating_objects/Questions/Salmon.java)
 - Q22
