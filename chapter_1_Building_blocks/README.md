@@ -342,6 +342,14 @@ these variables, they are given a default value.
 
 ### 1.6.3. Managing variable scope
 
+- Local variables: In scope from declaration to the end of the block
+- Method parameters: In scope for the duration of the method
+- Instance variables: In scope from declaration until the object is eligible for garbage collection
+- Class variables: In scope from declaration until the program ends
+
+[`Scope.java`](6_declaring_variables/Scope.java)
+[`Mouse.java`](6_declaring_variables/Mouse.java)
+
 ## 1.7. Destroying Objects
 
 ## 1.8. Questions
