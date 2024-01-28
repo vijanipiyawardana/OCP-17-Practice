@@ -352,6 +352,8 @@ these variables, they are given a default value.
 
 ## 1.7. Destroying Objects
 
+
+
 ## 1.8. Questions
 
 ### 1.8.1. Review Questions
@@ -366,9 +368,11 @@ these variables, they are given a default value.
 [`Identifier.java`](6_declaring_variables/Questions/Identifier.java)
 - Q5
 - Q6
+[`Camel.java`](6_declaring_variables/Questions/Camel.java)
 - Q7
 [`KitchenSink.java`](5_data_types/Questions/KitchenSink.java)
 - Q8
+[`Var1.java`](6_declaring_variables/Questions/Var1.java)
 - Q9
 [`DefaultValues.java`](6_declaring_variables/Questions/DefaultValues.java)
 - Q10
@@ -390,12 +394,15 @@ these variables, they are given a default value.
 - Q17
 [`WaterBottle.java`](6_declaring_variables/Questions/WaterBottle.java)
 - Q18
+[`Var2.java`](6_declaring_variables/Questions/Var2.java)
 - Q19
+[`Var3.java`](6_declaring_variables/Questions/Var3.java)
 - Q20
 - Q21 
 [`Salmon.java`](4_creating_objects/Questions/Salmon.java)
 - Q22
 [`Price.java`](5_data_types/Questions/Price.java)
 - Q23
+[`River.java`](6_declaring_variables/Questions/River.java)
 
 ### 1.8.2. Other questions
