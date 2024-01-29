@@ -52,9 +52,35 @@
 
 ## 2.4. Assigning Values
 
-## 2.5.
+### 2.4.1. Assignment operator
 
-## 2.6.
+- An assignment operator is a binary operator that modifies, or assigns, the variable on the left side of the operator with the result of the value on the right side of the equation.
+- evaluated from right to left
+- Simplest assignment operator is =
+```
+int herd = 1;
+```
+```
+int a = 50;
+```
+
+- Java will automatically promote from smaller to larger data types, as you saw in the previous section on arithmetic operators, but it will throw a compiler exception if it detects that you are trying to convert from larger to smaller data types without casting.
+
+### 2.4.2. Casting values
+
+- Casting is a **unary** operation where one data type is explicitly interpreted as another data type.
+[`Cast.java`](4_assigning_values/Cast.java)
+
+- casting is primarily concerned with converting numeric data types into other data types. - casting can also be applied to objects and references. In those cases, though, no conversion is performed. 
+- Put simply, casting a numeric value may change the data type, while casting an object only
+changes the reference to the object, not the object itself.
+
+#### 2.4.2.1. Overflow and Underflow
+
+
+## 2.5. Comparing Values
+
+## 2.6. Ternary Operator
 
 ## 2.7. Questions
 
