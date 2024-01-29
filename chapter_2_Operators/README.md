@@ -14,16 +14,43 @@
 
 - equires exactly one operand, or variable, to function.
     1. Complement and Negation Operators
-    2. Increment and Decrement Operators
+    2. Increment and Decrement Operators (arithmetic operators)
 [`Unary.java`](2_unary_operators/Unary.java)
 ![Alt text](../assets/unary.png)
 ![Alt text](../assets/unary2.png)
 
 - in Java, **1** and **true** are not related in any way, just as **0** and **false** are not related.
 
-## 2.3.
+## 2.3. Binary operators
 
-## 2.4.
+- take two operands
+
+### 2.3.1. Binary arithmetic operators
+
+- operate on numeric values
+- used to perform mathematical operations on variables, create logical expressions, and perform basic variable assignments
+[`BinaryArithmetic.java`](3_binary_arithmetic_operators/BinaryArithmetic.java)
+![Alt text](../assets/binary.png)
+
+- All of the arithmetic operators may be applied to any Java primitives, with the exception of boolean. Furthermore, only the addition operators + and += may be applied to String values, which results in **String concatenation**.
+
+- For integer values, division results in the floor value of the nearest integer that fulfills the operation, whereas modulus is the remainder value.
+
+#### 2.3.1.1. Numeric Promotion 
+
+- primitive numeric promotion, each primitive numeric type has a bit-­length
+- 4 rules:
+    1. If two values have different data types, Java will automatically promote one of the
+    values to the larger of the two data types.
+    2. If one of the values is integral and the other is floating-­point, Java will automatically
+    promote the integral value to the floating-­point value’s data type.
+    3. Smaller data types, namely, byte, short, and char, are first promoted to int any time
+    they’re used with a Java binary arithmetic operator with a variable (as opposed to a
+    value), even if neither of the operands is int. unary operators are excluded from this rule. For example, applying ++ to a short value results in a short value.
+    4. After all promotion has occurred and the operands have the same data type, the result-
+    ing value will have the same data type as its promoted operands.
+
+## 2.4. Assigning Values
 
 ## 2.5.
 
